@@ -1,0 +1,73 @@
+OBJECTIVE
+This program will allow users to play rock paper scissors against the computer
+-we will create code that checks who won each round
+-we willl create code that takes imput(choice) from the user
+-we will create code that takes 'imput'(random funcion) from the computer
+-we will create code that checks if the user wants to quit, or if the user doesnt enter one of the right options 
+-we will loop each round of the game
+-we will add statements at the end and the beginning that will wleocome and thank the user for playing
+-we will loop the whole game, so that the user can keep playing until they choose to quit
+
+
+
+
+
+
+
+
+PSEUDOCODE:
+
+#set variable keepPlaying to true
+#While keepPlaying is true:
+
+    #print statment wlcoming players to the game
+    #print statment stating the rules (best 2 out of 3 press 'q' to quit
+    
+    #make a key that assigns a number to each choicec for th computer
+    #(rock is 1, scissors is 2, paper is 3)
+    
+    #import the random function
+    
+    #set computer's score to 0
+    #set player's score to 0
+    
+    #while player's score is less than 2 and computer's score is less than 2:
+        
+        
+        #computer's choice = random number between 1 and 3
+        #player's choice = imput (ask player to select Rock, Paper, or Scissors)
+        
+        #if  player imputs 'q' or 'Q':
+        #   set keepPlaying to False
+        #   stop the loop
+        
+        #else if (player inputs rock and computer chooses rock) or
+        #(player imputs paper and computer chooses paper) or
+        #(player imputs scissors and computer chooses scisors):
+        #   print out DRAW
+        #   print out player's score and computer's score
+        
+        #else if (player inputs rock and comupter scissors) or
+        #(player imputs scissors and computer chooses paper) or
+        #(player imputs paper and computer chooses rock):
+        #   add one to the player's score
+        #   print out player's score and computers's score
+        
+        #else if (player imputs rock and computer choses paper) or
+        #(player imputs scissors snd computer chooses rock) or
+        #(player imputs paper and computer chooses scissors):
+        #   add one to the computer's score
+        #   print out player's score and computer's score
+        
+        #else:
+        #   tell the user their imput was not valid
+        
+    #print statement thanking thr players for playing
+    #if plater's score is 2:
+    #   print statment letting player know they won
+    #if computer's score is 2
+    #   print statment letting player know the computer won
+    #print out player's score and computer's score
+    
+    
+        
